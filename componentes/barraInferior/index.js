@@ -11,7 +11,7 @@ const Tab = createBottomTabNavigator();
 function NavigatorTabs() {
   return (
     <Tab.Navigator
-      initialRouteName="TelaInicio"
+      initialRouteName="TelaPrincipal"
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
@@ -47,7 +47,7 @@ function NavigatorTabs() {
         options={{
           tabBarLabel: "",
           tabBarIcon: ({ color, size }) => (
-            <IconButton icon="home" size={23} color={white} />
+            <IconButton icon="home" size={23} color={''} />
           ),
         }}
       />
