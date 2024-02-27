@@ -6,7 +6,12 @@ import TelaPesquisa from "../../paginas/TelaPesquisa";
 import TelaPrevisao from "../../paginas/TelaPrevisao";
 import NavigatorTelaInicio from "../../paginas/NavigatorTelaInicio";
 
+
+
 const Tab = createBottomTabNavigator();
+
+
+
 
 function NavigatorTabs() {
   return (
@@ -25,7 +30,7 @@ function NavigatorTabs() {
         options={{
           tabBarLabel: "",
           tabBarIcon: ({ color, size }) => (
-            <IconButton icon="home" size={size} color={color} />
+            <IconButton icon="map-legend" size={size} iconColor="white" />
           ),
         }}
       />
@@ -36,7 +41,7 @@ function NavigatorTabs() {
         options={{
           tabBarLabel: "",
           tabBarIcon: ({ color, size }) => (
-            <IconButton icon="home" size={size} color={color} />
+            <IconButton icon="dots-horizontal" size={size} color={color} iconColor="white" />
           ),
         }}
       />
@@ -47,7 +52,7 @@ function NavigatorTabs() {
         options={{
           tabBarLabel: "",
           tabBarIcon: ({ color, size }) => (
-            <IconButton icon="home" size={23} color={''} />
+            <IconButton icon="format-list-bulleted" size={size} color={color} iconColor="white" />
           ),
         }}
       />
