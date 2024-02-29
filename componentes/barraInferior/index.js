@@ -20,7 +20,7 @@ function NavigatorTabs() {
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
-          backgroundColor: "#857ED7",
+          backgroundColor: "#635DCD",
         },
       }}
     >
