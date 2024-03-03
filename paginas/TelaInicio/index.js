@@ -4,13 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function TelaInicio() {
   return (
     <View style={styles.container}>
-      <Text> App de clima! </Text>
-      <Text> App de clima! </Text>
-      <Text> App de clima! </Text>
-      <Text> App de clima! </Text>
-      <Text> App de clima! </Text>
+      <Text> oi </Text>
 
-      <StatusBar style="auto" />
     </View>
   );
 }

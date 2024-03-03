@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function TelaPrevisao() {
   return (
     <View style={styles.container}>
+      <View style={styles.previsaoDias}>
       <Text> tela de previsão dos proximos 10 dias </Text>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,5 +19,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  previsaoDias:{
+    backgroundColor:'#9E97F0',
+
+  }
 });
 
